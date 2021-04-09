@@ -1,0 +1,185 @@
+body{
+  background-color: #fbc687;
+  margin: 0px;
+}
+
+body{
+  font-family: 'Roboto Slab', serif;
+}
+h2{
+  text-align: center;
+}
+
+.brand{
+    font-size: 50px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    float: left;
+    color: #f8fab8;
+}
+.brand img{
+  margin: 0 5px 10px 15px;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+nav a:hover{
+    color: #084177;
+}
+
+nav  a {
+    list-style-type:none;
+    float: right;
+    display: block;
+    padding: 8px;
+    color: whitesmoke;
+    
+}
+
+nav{
+    background-color:rgb(105, 83, 44);
+    height: 100px;
+}
+
+#login, #signup{
+    list-style-type:none;
+      float: right;
+      display: block;
+      padding: 8px;
+      color: thistle;
+  }
+  
+  /* The Modal (background) */
+  .modal-1 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .content-1 {
+    background-color: #fae7cb;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close-1 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close-1:hover,
+  .close-1:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal-2 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .content-2 {
+    background-color: #fae7cb;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close-2 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close-2:hover,
+  .close-2:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+/*contact us page*/
+  h1{
+      text-align: center;
+  }
+
+  h4{
+    font-size: large;
+  }
+
+  .container{
+    text-align: center;
+
+  }
+
+  #query{
+  padding-bottom: 40px;
+  padding-left: 10px;
+  scroll-padding-right: 10px;
+  }
+
+  /*search bar*/
+
+#search{
+  display: flex;
+  justify-content: center;
+   
+ }
+ /* Style the input field inside the navbar */
+ #search input[type=text] {
+   padding: 6px;
+   font-size: 17px;
+   border: none;
+ }
+ 
+ /* Style the button inside the input container*/ 
+ #search button {
+   text-align: center;
+   padding: 6px;
+ 
+   background: #ddd;
+   font-size: 17px;
+   border: none;
+   cursor: pointer;
+ }
+ 
+ #search button:hover {
+   background: #ccc;
+ }
+
+  /*footer*/
+  .footer{
+    text-align: center;
+  }
+  
+  hr{
+   width: 90%;
+   height: 10px;
+  }

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <link rel="icon" type="text/png" href="./img/TRENDin.png" >
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <title>Trend IN</title>
+        <link rel="stylesheet" href="women.css">
+        <link rel="stylesheet" href="project.css">
+        
+    </head>
+
+    <body>
+        <div>
+          <nav>
+            <!--login popup-->
+               <div>
+              <a id="login">LOG IN</a>
+                 <div id="Modal-1" class="modal-1">
+               <!--modal content--> 
+                    <div class="content-1">
+                      <span onclick="closeLogin()" class="close-1">&times;</span>
+                  
+                <form>
+                    <h4>USERNAME</h4>
+                <input type="text" name="username" id="username" placeholder="username"  required />
+                    <h4>PASSWORD</h4>
+                <input type="text" name="password" id="password" placeholder="password"  required />
+                </form>
+                
+                 <!--modelfooter-->     
+                <div class="modal-footer">
+                  <button type="submit" class="btn default-primary-color default-border-color text-primary-color modal-btn">Login</button>
+                  <button type="reset" onclick="closeLogin()"  class="btn default-color default-border-color modal-btn">Close</button>
+                </div>
+                    </div>
+                 </div> 
+               </div>
+
+               <!--signup popup-->
+               <div>
+                <a id="signup">SIGN UP</a>
+                   <div id="Modal-2" class="modal-2">
+                 <!--modal content--> 
+                      <div class="content-2">
+                        <span onclick="closeSignUp()" class="close-2">&times;</span>
+                          <form>
+                          <h4>USERNAME</h4>
+                            <input type="text" name="username" id="username" placeholder="username"  required />
+                          <h4>E-MAIL</h4>
+                            <input type="email" name="email" id="email" required placeholder="email"/>  
+                          <h4>PASSWORD</h4>
+                            <input type="text" name="password" id="password" placeholder="password"  required />
+                          <h4>RE-ENTER PASSWORD</h4>
+                            <input type="text" name="password" id="password" placeholder="password"  required />
+                            </form>
+                            <!--modelfooter-->
+                            <div class="modal-footer">
+                              <button type="submit" class="btn default-primary-color default-border-color text-primary-color modal-btn">Sign Up</button>
+                              <button type="button" onclick="closeSignUp()"  class="btn default-color default-border-color modal-btn closeWindow">Close</button>
+                            </div>
+                      </div>
+                   </div> 
+                 </div>
+                 <div class="brand"><img src="./img/TRENDin.png" alt="" style="height: 80px;">Trend IN</div>
+                 <div id="search">
+                    <form>
+                    <input type="text" placeholder="Search..." name="search">
+                    <button type="submit">Submit</button>
+                    </form>
+                  </div><br>
+
+            <a href="contact.html">CONTACT US</a>
+            <a href="about.html">ABOUT US</a>
+            <a href="women.html">WOMEN</a>
+            <a href="men.html">MEN</a>      
+            <a href="index.html"> HOME</a>
+
+              
+
+          </nav>
+        </div>
+        <br>
+       
+      <h1>Welcome To Women's Section <span id="info">(Click on the image to view more)</span></h1> 
+       
+      <div class="flexcontainer">
+        <div>
+          <img onclick="displaydesc1()" src="./img/womenc1.png">
+          <p><span class="company">Libas</span></p>
+          <p>Printed Kurta</p>
+          <p>Rs 799</p>
+        </div>
+        <div><img onclick="displaydesc2()" src="./img/womenc2.png">
+          <p><span class="company">Vagarna </span></p>
+          <p>Printed Straight Kurta</p>
+          <p>Rs 899</p>
+        </div>
+        <div><img onclick="displaydesc3()" src="./img/womenc3.png">
+          <p><span class="company">Divena </span></p>
+          <p>Solid Straight Kurta</p>
+          <p>Rs 1199</p>
+        </div>
+        <div><img onclick="displaydesc4()" src="./img/womenc4.png">
+          <p><span class="company">Libas</span></p>
+          <p>Yoke Design Straight Kurta</p>
+          <p>Rs 999</p>
+        </div>
+        <div><img onclick="displaydesc5()" src="./img/womenc5.png">
+          <p><span class="company">Anouk</span></p>
+          <p>Anarkali Kurta</p>
+          <p>Rs 1499</p>
+        </div>
+        <div><img onclick="displaydesc6()" src="./img/womenc6.png">
+          <p><span class="company">Indo Era</span></p>
+          <p>Print Straight Kurta</p>
+          <p>Rs 999</p>
+        </div>
+     </div>
+
+
+   
+   
+    <!--bigger display################################################################################################-->
+    
+   
+    <div>
+      <div id="Desc-1" class="desc-1"> 
+        <div class="content-1">
+          <span onclick="closedisp1()" class="close-1">&times;</span>
+          <img id="img-1" src="./img/womenc1.png"> <br>  
+          name: "Libas <br>
+          subName: "Printed Kurta" <br>
+          price: "Rs. 799" <br>
+          productDetails: ["printed kurta with trousers","Comes with a black, taupe and maroon printed longline ethnic jacket, has tie-up detail on the front, three-quarter sleeves,Green and golden striped dupatta, has tasselled detail"] <br>
+          Wash: "Hand Wash"<br>
+        </div> 
+      </div>
+      <div id="Desc-2" class="desc-2"> 
+        <div class="content-2">
+          <span onclick="closedisp2()" class="close-2">&times;</span>
+          <img id="img-2" src="./img/womenc2.png"> <br>  
+          name: "Vagarna"<br>
+          subName: "Printed Straight Kurta",<br>
+          price: "Rs. 899",<br>
+          productDetails: ["printed kurta with trousers","Comes with a black, taupe and maroon printed longline ethnic jacket, has tie-up detail on the front, three-quarter sleeves,Green and golden striped dupatta, has tasselled detail"],<br>
+          Wash: "Hand Wash"<br>
+        </div> 
+      </div>
+      <div id="Desc-3" class="desc-3"> 
+        <div class="content-3">
+          <span onclick="closedisp3()" class="close-3">&times;</span>
+          <img id="img-3" src="./img/womenc3.png"> <br>  
+          name: "Divena",<br>
+          subName: "Solid Straight Kurta",<br>
+          price: "Rs. 1199",<br>
+          productDetails: ["printed kurta with trousers","Comes with a black, taupe and maroon printed longline ethnic jacket, has tie-up detail on the front, three-quarter sleeves,Green and golden striped dupatta, has tasselled detail"],<br>
+          Wash: "Machine Wash"<br>
+        </div> 
+      </div>
+      <div id="Desc-4" class="desc-4"> 
+        <div class="content-4">
+          <span onclick="closedisp4()" class="close-4">&times;</span>
+          <img id="img-4" src="./img/womenc4.png"> <br>  
+          name: "Libas",<br>
+          subName: "Yoke Design Straight Kurta",<br>
+          price: "Rs. 999",<br>
+          productDetails: ["printed kurta with trousers","Comes with a black, taupe and maroon printed longline ethnic jacket, has tie-up detail on the front, three-quarter sleeves,Green and golden striped dupatta, has tasselled detail"],<br>
+          Wash: "Machine Wash"<br>
+        </div> 
+      </div>
+      <div id="Desc-5" class="desc-5"> 
+        <div class="content-5">
+          <span onclick="closedisp5()" class="close-5">&times;</span>
+          <img id="img-5" src="./img/womenc5.png"> <br>  
+          name: "Anouk",<br>
+          subName: "Anarkali Kurta",<br>
+          price: "Rs. 1499",<br>
+          productDetails: ["printed kurta with trousers","Comes with a black, taupe and maroon printed longline ethnic jacket, has tie-up detail on the front, three-quarter sleeves,Green and golden striped dupatta, has tasselled detail"],<br>
+          Wash: "Machine Wash"<br>
+        </div> 
+      </div>
+      <div id="Desc-6" class="desc-6"> 
+        <div class="content-6">
+          <span onclick="closedisp6()" class="close-6">&times;</span>
+          <img id="img-6" src="./img/womenc6.png"> <br>  
+          name: "Indo Era",<br>
+          subName: "Print Straight Kurta",<br>
+          price: "Rs. 999",<br>
+          productDetails: ["printed kurta with trousers","Comes with a black, taupe and maroon printed longline ethnic jacket, has tie-up detail on the front, three-quarter sleeves,Green and golden striped dupatta, has tasselled detail"],<br>
+          Wash: "Hand Wash",<br>
+        </div> 
+      </div>  
+    </div>
+
+     <!--footer of home page-->
+     <hr>
+     <div class="footer">
+        <section>
+         <footer>
+             <p style="color: #00263b;">Author: NIKHIL GUPTA<br>
+             <a href="mailto:nikhil@gmail.com">nikhil@gmail.com</a><br>
+             Contact No. : 8373892823</p>
+             <p>© Copyrights Trend IN</p>
+           </footer>
+        </section>
+     </div>
+
+    <script src="women.js"></script>
+    </body>
+</html>

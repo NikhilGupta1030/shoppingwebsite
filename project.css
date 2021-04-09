@@ -1,0 +1,303 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  
+}
+body{
+  font-family: 'Roboto Slab', serif;
+}
+
+body{
+    background-color: #fbc687;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.brand{
+    font-size: 50px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    float: left;
+    color: #f8fab8;
+}
+.brand img{
+  margin: 0 5px 10px 15px;
+}
+
+nav a:hover{
+    color: #fff591;
+}
+
+nav  a {
+    list-style-type:none;
+    float: right;
+    display: block;
+    padding: 8px;
+    color: whitesmoke;
+    
+}
+
+nav{
+    background-color:rgb(105, 83, 44);
+    height: 80px;
+}
+
+
+
+/* SLIDER*/
+* {box-sizing:border-box}
+body { margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+
+/* Slideshow container */
+.slider {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.slides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.left, .right {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.right {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.left:hover, .right:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* caption on the slider */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* number on the slider */
+.number {
+  color: black;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 10px;
+}
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* HOME PAGE CATEGORY DISPLAY*/
+
+
+
+h2{
+    text-align:center;
+}
+
+.footer{
+   text-align: center;
+}
+
+hr{
+  width: 90%;
+  height: 10px;
+}
+
+/*modal popup*/
+
+#login, #signup{
+  list-style-type:none;
+    float: right;
+    display: block;
+    padding: 8px;
+    color: whitesmoke;
+}
+#login:hover{
+  color: #fff591;
+}
+
+#signup:hover{
+  color: #fff591;
+}
+
+/* The Modal (background) */
+.modal-1 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.content-1 {
+  background-color: #fae7cb;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close-1 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close-1:hover,
+.close-1:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-2 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.content-2 {
+  background-color: #fae7cb;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close-2 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close-2:hover,
+.close-2:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*search bar*/
+
+#search{
+ display: flex;
+ justify-content: center;
+  
+}
+/* Style the input field inside the navbar */
+#search input[type=text] {
+  padding: 6px;
+  font-size: 17px;
+  border: none;
+}
+
+/* Style the button inside the input container*/ 
+#search button {
+  text-align: center;
+  padding: 6px;
+
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+#search button:hover {
+  background: #ccc;
+}
+
+/*category display*/
+
+.category div{
+  width: 40%;
+  height: 800px;
+}
+
+img{
+  max-width: 100%;
+}
+
+
+.category{
+  display: flex;
+  flex-direction: row;
+  padding: 0 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+ 
+}
+
+#men{
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+#women{
+  font-size: 40px;
+  font-weight: bolder;
+}
